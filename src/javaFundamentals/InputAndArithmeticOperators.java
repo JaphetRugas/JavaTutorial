@@ -20,8 +20,6 @@ public class InputAndArithmeticOperators {
 		System.out.println("Your name is " + name);
 		System.out.println("Your age is " + age);
 		
-	
-
 		// One Function Calculator
 		int x, y;
 		System.out.print("Enter value for x: ");
