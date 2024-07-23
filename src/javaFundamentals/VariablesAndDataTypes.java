@@ -28,13 +28,7 @@ public class VariablesAndDataTypes {
 		System.out.println(2 + 3);
 		System.out.println('a' + 3);
 		
-		
-		
-		System.out.println("I am " + name);
-		
-		
-		
-		// Sentence Buildern Challenge
+		// Sentence Builder Challenge
 		String name1 = "Jade Rugas";
 		int age = 23;
 		double grade2 = 2.25;
