@@ -29,8 +29,7 @@ public class InputAndArithmeticOperators {
 		
 		int z = x + y;
 		System.out.println("Sum: " + z);
-		
-		
+			
 	}
 
 }
