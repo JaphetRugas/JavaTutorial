@@ -16,16 +16,6 @@ public class ForEachLoops {
 			if(name.equals(search)) break;
 			System.out.println(name);
 		}
-		
-		// Array Summation
-		int num[] = {1,2,3,4,5,6,7,8,9,10};
-		int sum = 0;
-		
-		for(int nums: num) {
-			sum+=nums;
-		}
-		System.out.println(sum);
-
 	}
 
 }

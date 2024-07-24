@@ -19,16 +19,6 @@ public class InputAndArithmeticOperators {
 
 		System.out.println("Your name is " + name);
 		System.out.println("Your age is " + age);
-		
-		// One Function Calculator
-		int x, y;
-		System.out.print("Enter value for x: ");
-		x = s.nextInt();
-		System.out.print("Enter value for y: ");
-		y = s.nextInt();
-		
-		int z = x + y;
-		System.out.println("Sum: " + z);
 			
 	}
 

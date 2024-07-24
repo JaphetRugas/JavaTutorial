@@ -1,8 +1,8 @@
-package javaFundamentals;
+package challenge;
 
 import java.util.Scanner;
 
-public class ConditionalStatement {
+public class GradeAverageProgram {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -65,6 +65,40 @@ public class ConditionalStatement {
 			System.out.println("Nice");
 		} else {
 			System.out.println("The hell");
+		}
+		
+		// Grade Average Program
+		
+		System.out.println("Enter your grades(4): ");
+		System.out.print("Grade 1: ");
+		int grade1 = s.nextInt();
+		System.out.print("Grade 2: ");
+		int grade2 = s.nextInt();
+		System.out.print("Grade 3: ");
+		int grade3 = s.nextInt();
+		System.out.print("Grade 4: ");
+		int grade4 = s.nextInt();
+		
+		int total = (grade1+grade2+grade3+grade4)/4;
+		
+		System.out.println(total);
+		if(total >= 98) {
+			System.out.println("With Highest Honors");
+		}
+		else if(total >= 95) {
+			System.out.println("With High Honors");
+		}
+		else if(total >= 90) {
+			System.out.println("With  Honors");
+		}
+		else if(total >= 75) {
+			System.out.println("Passed");
+		}
+		else if(total < 75) {
+			System.out.println("Failed");
+		}
+		else {
+			System.out.println("Invalid Grade");
 		}
 	}
 
